@@ -1,0 +1,198 @@
+* {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+.cont {
+    height: 600px;
+    width: 400px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -8px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.cont:hover {
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
+    -moz-transition: box-shadow 0.8s 0.1s ease;
+    -o-transition: box-shadow 0.8s 0.1s ease;
+    -webkit-transition: box-shadow 0.8s 0.1s ease;
+}
+
+.halfcont {
+    height: 290px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background: rgb(255, 89, 0);
+    background: rgb(207, 220, 255);
+    background: -moz-linear-gradient(336deg, rgba(207, 220, 255, 1) 45%, rgba(241, 241, 241, 1) 78%);
+    background: -webkit-linear-gradient(336deg, rgba(207, 220, 255, 1) 45%, rgba(241, 241, 241, 1) 78%);
+    background: linear-gradient(336deg, rgba(207, 220, 255, 1) 45%, rgba(241, 241, 241, 1) 78%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cfdcff", endColorstr="#f1f1f1", GradientType=1);
+}
+
+.txt {
+    color: white;
+    padding-left: 20px;
+}
+
+.atxt {
+    width: 300px;
+}
+
+.menu {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.mtxt1 {
+    padding-top: 4px;
+    color: rgb(57, 57, 57);
+}
+
+.mtxt2 {
+    padding-top: 30px;
+}
+
+.links {
+    padding-top: 20px;
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.but1 {}
+
+.but11 {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+}
+
+.lit {
+    padding-top: 2px;
+}
+
+.but11:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.colors {
+    padding-top: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col {
+    margin-right: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    width: 25px;
+    height: 25px;
+}
+
+.col1 {
+    margin-right: 50px;
+    border-radius: 50%;
+    background-color: rgb(33, 60, 99);
+    width: 25px;
+    height: 25px;
+}
+
+.col2 {
+    margin-right: 50px;
+    border-radius: 50%;
+    background-color: rgb(127, 22, 76);
+    width: 25px;
+    height: 25px;
+}
+
+.col:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: groove;
+}
+
+.col1:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: groove;
+}
+
+.col2:hover {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: groove;
+}
+
+.new {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+}
+
+.ntxt {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 3px;
+}
+
+.cardnew {
+    margin-left: 10px;
+    margin-top: 4px;
+    background-color: rgb(127, 180, 207);
+    height: 20px;
+    width: 50px;
+    border-radius: 3px;
+}
+
+.buttom_colour {
+    display: flex;
+    justify-content: right;
+    top: 15px;
+    margin-right: 30px;
+}
+
+.USD {
+    border-radius: 11px;
+    padding: 10px;
+    font-size: x-large;
+    background-color: rgb(127, 180, 207);
+    color: white;
+    position: relative;
+    left: 50px;
+    top: -35px;
+    box-shadow: 2px 0px 10px 2px black;
+
+}
+
+.nike {
+    position: relative;
+    left: 250px;
+    top: -70px;
+    width: 250px;
+    height: 125px;
+    transform: rotate(30deg);
+
+}
